@@ -1,0 +1,36 @@
+<?xml version="1.0" ?><catalog>
+
+
+<script name="Py" path="__PyModelioEnv.py" icon-path="" show-menu="false" show-toolbar="true"/>
+<script name="MetaScribe" path="__MetaScribe_coexplorer.py" icon-path="" show-menu="false" show-toolbar="true"/>
+
+
+<script name="Sandbox" path="__Sandbox.py" icon-path="" show-menu="false" show-toolbar="true"/>
+<script name="SheetScribe" path="__SheetScribe_run.py" icon-path="" show-menu="false" show-toolbar="true"/>
+<script name="EcoreScribe" path="__EcoreScribe.py" icon-path="" show-menu="false" show-toolbar="true"/>
+<script name="OCLScribe" path="__OCLScribe_generate_ocl.py" icon-path="" show-menu="false" show-toolbar="true"/>
+<script name="GraphScribe" path="__GraphScribe_run.py" icon-path="" show-menu="false" show-toolbar="true"/>
+<script name="(I)" path="__OCLScribe_add_invariant.py" icon-path="icons\Invariant.png" show-menu="true" show-toolbar="true">
+    <metaclass name="Class"></metaclass>
+</script>
+<script name="(D)" path="__OCLScribe_add_derivation.py" icon-path="icons\AttributeDefinition.png" show-menu="true" show-toolbar="true">
+    <metaclass name="Class"></metaclass>
+</script>
+<script name="(=)" path="__OCLScribe_add_operation_definition.py" icon-path="icons\OperationDefinition.png" show-menu="false" show-toolbar="true">
+    <metaclass name="Operation"></metaclass>
+</script>
+
+
+
+
+<script name="Make a singleton" path="MakeSingleton.py" icon-path="icons\MakeSingleton.png" show-menu="true" show-toolbar="false">
+<description>This macro makes a singleton from an existing class. It can also create a new class if applied on a Package. It actually creates a static getInstance() method, an self-association 'instance' and a private default constructor for the class.</description>
+<metaclass name="Class"></metaclass>
+<metaclass name="Package"></metaclass>
+</script>
+<script name="Sort" path="Sort.py" icon-path="icons\sort.png" show-menu="true" show-toolbar="true">
+<description>This macro sorts the model elements under a Classifier or a Package.</description>
+<metaclass name="Classifier"></metaclass>
+<metaclass name="Package"></metaclass>
+</script>
+</catalog>
