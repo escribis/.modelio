@@ -4,7 +4,7 @@
 <script name="Py" path="__PyModelioEnv.py" icon-path="" show-menu="false" show-toolbar="true"/>
 <script name="MetaScribe" path="__MetaScribe_coexplorer.py" icon-path="" show-menu="false" show-toolbar="true"/>
 
-
+<script name="CheckScribe" path="__CheckScribe.py" icon-path="" show-menu="false" show-toolbar="true"/>
 <script name="Sandbox" path="__Sandbox.py" icon-path="" show-menu="false" show-toolbar="true"/>
 <script name="SheetScribe" path="__SheetScribe_run.py" icon-path="" show-menu="false" show-toolbar="true"/>
 <script name="EcoreScribe" path="__EcoreScribe.py" icon-path="" show-menu="false" show-toolbar="true"/>
